@@ -33,7 +33,6 @@ def twoSum(nums: list[int], target: int) -> list[int]:
                 return [i, j]
             j += 1
 
-
 # Difficulty: Easy
 # Method : Brute force (two loops)
 # Time complexity: O(n^2)
