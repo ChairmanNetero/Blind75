@@ -25,14 +25,12 @@ Input: nums = [5,5], target = 10
 Output: [0,1]
 """
 
-
 def twoSum(nums: list[int], target: int) -> list[int]:
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
             if nums[i] + nums[j] == target:
                 return [i, j]
             j += 1
-
 
 # Difficulty: Easy
 # Method : Brute force (two loops)
